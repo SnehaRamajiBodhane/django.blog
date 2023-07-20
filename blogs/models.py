@@ -13,7 +13,7 @@ class Category(models.Model):
         return self.category_name
 STATUS_CHOICES =(
     ("Draft","Draft"),
-    ("Publish","Publish")
+    ("Published","Published")
 )
 
 class Blog(models.Model):
